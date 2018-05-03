@@ -31,7 +31,7 @@ export default class Main extends React.Component<any, any> {
             <header id="header">
                 <div className="inner">
                     <a href="index.html" className="logo">
-                        <span className="symbol"><img src="images/logo.svg" alt="" /></span><span className="title">Phantom</span>
+                        <span className="symbol"><img src="images/logo.svg" alt="" /></span><span className="title">Computer Science</span>
                     </a>
 
                     <nav>
