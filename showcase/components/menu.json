@@ -1,0 +1,100 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "Java",
+      "className":"style1",
+      "images":"images/pic01.jpg",
+      "href":"#/java",
+      "description":"Kullanıcı dostu ve hızlı bir uygulama geliştirme  aracıdır."
+    },
+    {
+      "id": 2,
+      "name": "ReactJS",
+      "className":"style2",
+      "images":"images/pic02.jpg",
+      "href":"#/react",
+      "description":"Interactive UI tasarımlarını acısız bir şekilde yapmanızı sağlar."
+    },
+    {
+      "id": 3,
+      "name": "PHP",
+      "className":"style3",
+      "images":"images/pic03.jpg",
+      "href":"#/php",
+      "description":"Özellikle sanal yöreler üzerinde geliştirme için tasarlanmış HTML içine gömülebilen bir betik dilidir."
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "className":"style4",
+      "images":"images/pic04.jpg",
+      "href":"#/python",
+      "description":"Hem daha okunaklı, hem daha temiz kodsal söz dizimi?"
+    },
+    {
+      "id": 5,
+      "name": "Windows & Linux",
+      "className":"style5",
+      "images":"images/pic05.jpg",
+      "href":"#/wl",
+      "description":"Yazılım + Donanım kısaca herşeyimiz"
+    },
+    {
+      "id": 6,
+      "name": "Html & Css",
+      "className":"style6",
+      "images":"images/pic06.jpg",
+      "href":"#/htcs",
+      "description":"Birisi tasarım mı dedi ?"
+    },
+    {
+      "id": 7,
+      "name": "Oracle",
+      "className":"style2",
+      "images":"images/pic07.jpg",
+      "href":"#/oracle",
+      "description":"En güvenilir ve desteği bol bir kaynak?"
+    },
+    {
+      "id": 8,
+      "name": "MySQL",
+      "className":"style3",
+      "images":"images/pic08.jpg",
+      "href":"#/mysql",
+      "description":"Ücretsiz ve herşeyi yapabileceğiniz bir database"
+    },
+    {
+      "id": 9,
+      "name": "Android",
+      "className":"style1",
+      "images":"images/pic09.jpg",
+      "href":"#/android",
+      "description":"Mobil devrimin öncü programı (tabii ki Java sayesinde)"
+    },
+    {
+      "id": 10,
+      "name": "TypeScript",
+      "className":"style5",
+      "images":"images/pic10.jpg",
+      "href":"#/type",
+      "description":"Hatasız kod yazmak artık zorunlu"
+    },
+    {
+      "id": 11,
+      "name": "Algoritma",
+      "className":"style6",
+      "images":"images/pic11.jpg",
+      "href":"#/algoritma",
+      "description":"İyi bir ürün için yollar önemli"
+    },
+    {
+      "id": 12,
+      "name": "Jenkins",
+      "className":"style4",
+      "images":"images/pic12.jpg",
+      "href":"#/jenkins",
+      "description":"Bırakın sizin yerinize herşeyi o yapsın."
+    }
+  ]
+}
