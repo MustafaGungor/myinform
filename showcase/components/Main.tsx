@@ -10,9 +10,10 @@ import { Container, Row, Col, Collapse,
     DropdownToggle,
     DropdownMenu,
     DropdownItem} from 'reactstrap';
-import { HashRouter as Router, Route, Link, browserHistory, Switch } from "react-router-dom";
-const menu = require('./menu.json');
-import {debug} from "util";
+import MainPage from "./layouts/MainPage"
+import Authorization from "../auth/Authorization";
+import Header from "./layouts/Header";
+import Menu from "./layouts/Menu";
 
 export default class Main extends React.Component<any, any> {
 
@@ -25,44 +26,12 @@ export default class Main extends React.Component<any, any> {
     }
 
     render() {
-        let menus = menu.menus;
-        return <body>
-        <div id="wrapper">
-            <header id="header">
-                <div className="inner">
-                    <a href="index.html" className="logo">
-                        <span className="symbol"><img src="images/logo.svg" alt="" /></span><span className="title">Computer Science</span>
-                    </a>
-
-                    <nav>
-                        <ul>
-                            <li><a href="#menu">Menu</a></li>
-                        </ul>
-                    </nav>
-
-                </div>
-            </header>
-
-            <nav id="menu">
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="generic.html">Ipsum veroeros</a></li>
-                    <li><a href="mypage.html">Tempus etiam</a></li>
-                    <li><a href="generic.html">Consequat dolor</a></li>
-                    <li><a href="elements.html">Elements</a></li>
-                </ul>
-            </nav>
+        return <div id="wrapper">
+            <Header/>
+            <Menu/>
 
             <div id="main">
-                <div className="inner">
-                    <header>
-                        <h1>Kendi öğrenmek istediklerim ve öğrenmeye çalıştığım teknolojileri not almak için oluşturduğum bir platformdur..</h1>
-                    </header>
-                    <section className="tiles">
-                        {this.returnSubMenus(menus)}
-                    </section>
-                </div>
+                {window.location.href.split('#/')[1] == "" ? <MainPage/> : <Authorization/>}
             </div>
 
             <footer id="footer">
@@ -104,34 +73,9 @@ export default class Main extends React.Component<any, any> {
             </footer>
 
         </div>
-
-
-
-        </body>
     }
 
-    /**
-     *
-     * @param {Array<any>} menus
-     * @returns {Array<any>}
-     */
-    returnSubMenus(menus:Array<any>){
-        let arr:Array<any> = [];
-        menus.forEach(function (element) {
-            arr.push(<article key={element.id} className={element.className}>
-									<span className="image">
-										<img src={element.images} alt="" />
-									</span>
-                <a href={element.href}>
-                    <h2>{element.name}</h2>
-                    <div className="content">
-                        <p>{element.description}</p>
-                    </div>
-                </a>
-            </article>)
-        })
-        return arr;
-    }
+
 
     toggle(){
         this.setState({
