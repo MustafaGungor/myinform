@@ -1,0 +1,12 @@
+{
+  "list" : [
+    {"id":1,"name":"JSX Nedir?"},
+    {"id":2,"name":"React Component Nasıl Yazılır?"},
+    {"id":3,"name":"React State Mantığı?"},
+    {"id":4,"name":"React Props Mantığı?"},
+    {"id":5,"name":"React Component Life Cycle (Yaşam Döngüsü)"},
+    {"id":6,"name":"React Refs Mantığı"},
+    {"id":7,"name":"React Router Mantığı"},
+    {"id":8,"name":"React Component Fork yöntemi"}
+  ]
+}

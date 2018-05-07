@@ -18,3 +18,7 @@
     transform: rotate(45deg);
     transform-origin: 20% 40%;
 }
+
+.sample-count{
+    width: calc(25% - 2.5em) !important;
+}

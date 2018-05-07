@@ -1,0 +1,16 @@
+{
+  "menus": [
+    {"id": 1, "name": "Java", "path":"/java", "component":"lang/java/Java","db":"javaDB.json"},
+    {"id": 2, "name": "ReactJS", "path":"/react", "component":"lang/react/React","db":"reactDB.json"},
+    {"id": 3, "name": "PHP", "path":"/php", "component":"lang/php/Php"},
+    {"id": 4, "name": "Python", "path":"/python", "component":"lang/python/Python"},
+    {"id": 5, "name": "Windows & Linux", "path":"/wl", "component":"lang/operatingSystem/WindowsLinux"},
+    {"id": 6, "name": "Html & Css", "path":"/htcs", "component":"lang/script/HtmlCss"},
+    {"id": 7, "name": "Oracle", "path":"/oracle", "component":"lang/database/oracle/Oracle"},
+    {"id": 8, "name": "MySQL", "path":"/mysql", "component":"lang/database/mysql/MySQL"},
+    {"id": 9, "name": "Android", "path":"/android", "component":"lang/android/Android"},
+    {"id": 10, "name": "TypeScript", "path":"/type", "component":"lang/typescript/TypeScript"},
+    {"id": 11, "name": "Algoritma", "path":"/algoritma", "component":"lang/algorithm/Algoritma"},
+    {"id": 12, "name": "Jenkins", "path":"/jenkins", "component":"lang/platform/jenkins/Jenkins"}
+  ]
+}
