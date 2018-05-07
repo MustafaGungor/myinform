@@ -1,6 +1,10 @@
 {
   "list" : [
-    {"id":1,"name":"Java Class Mantığı ve Object"},
+    {
+      "id":1,
+      "name":"Java Class Mantığı ve Object",
+      "expression":"Sınıf soyut bir veri tipidir . İçerisinde bulunan field ve metodlarla bir nesnesin şablonunu ifade eder."
+    },
     {"id":2,"name":"Java Değişkenler"},
     {"id":3,"name":"Java Operatörler"},
     {"id":4,"name":"Java Loops"},
